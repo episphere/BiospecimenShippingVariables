@@ -1,0 +1,8 @@
+field,type
+bags,json
+arrElements,json
+boxId,string
+institute,string
+location,string
+shipped,boolean
+locations,array
