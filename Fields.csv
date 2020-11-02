@@ -1,8 +1,8 @@
-field,type
-bags,json
-arrElements,json
-boxId,string
-institute,string
-location,string
-shipped,boolean
-locations,array
+field,type,Quick Description
+bags,json,json maps specimen bag id to arrElements
+arrElements,array,array of tubes in a bag
+boxId,string,identifier of the box -> used as a pair with institute to identify a tube
+institute,string,institute from where the box is from
+location,string,location within institute that this box is being packed and shipped from
+shipped,boolean,whether or not a box has been shipped
+locations,array,array of the locations within a site
